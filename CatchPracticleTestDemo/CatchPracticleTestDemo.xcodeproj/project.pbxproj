@@ -15,6 +15,9 @@
 		70F81084268D441400EC441E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F81082268D441400EC441E /* LaunchScreen.storyboard */; };
 		70F8108F268D441400EC441E /* CatchPracticleTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F8108E268D441400EC441E /* CatchPracticleTestDemoTests.swift */; };
 		70F8109A268D441400EC441E /* CatchPracticleTestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F81099268D441400EC441E /* CatchPracticleTestDemoUITests.swift */; };
+		70F810F2268D4B0D00EC441E /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F810F0268D4B0D00EC441E /* APIRouter.swift */; };
+		70F810F3268D4B0D00EC441E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F810F1268D4B0D00EC441E /* NetworkManager.swift */; };
+		70F810F5268D4B2800EC441E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F810F4268D4B2800EC441E /* User.swift */; };
 		A47DF5FCF2E984EFA528AFE2 /* Pods_CatchPracticleTestDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F657011FBFE3BA2C0873FFF9 /* Pods_CatchPracticleTestDemoTests.framework */; };
 		DB487E9CF9D7D8328E47C1E6 /* Pods_CatchPracticleTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F947745B89D5B7594F9059DE /* Pods_CatchPracticleTestDemo.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +56,9 @@
 		70F81095268D441400EC441E /* CatchPracticleTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatchPracticleTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F81099268D441400EC441E /* CatchPracticleTestDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatchPracticleTestDemoUITests.swift; sourceTree = "<group>"; };
 		70F8109B268D441400EC441E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70F810F0268D4B0D00EC441E /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		70F810F1268D4B0D00EC441E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		70F810F4268D4B2800EC441E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8327F8D158628A08D3197AB9 /* Pods-CatchPracticleTestDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchPracticleTestDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CatchPracticleTestDemoTests/Pods-CatchPracticleTestDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C221D4FF000E7A4871574E9E /* Pods-CatchPracticleTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchPracticleTestDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CatchPracticleTestDemoTests/Pods-CatchPracticleTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E85094D295F9D36B0AC939BF /* Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests/Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +189,8 @@
 		70F810E6268D47D700EC441E /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				70F810F0268D4B0D00EC441E /* APIRouter.swift */,
+				70F810F1268D4B0D00EC441E /* NetworkManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -216,6 +224,7 @@
 		70F810EA268D483300EC441E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				70F810F4268D4B2800EC441E /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -499,7 +508,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F810F3268D4B0D00EC441E /* NetworkManager.swift in Sources */,
 				70F81078268D441100EC441E /* AppDelegate.swift in Sources */,
+				70F810F2268D4B0D00EC441E /* APIRouter.swift in Sources */,
+				70F810F5268D4B2800EC441E /* User.swift in Sources */,
 				70F8107A268D441100EC441E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
