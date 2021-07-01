@@ -89,6 +89,7 @@ extension UsersViewController: UITableViewDataSource {
         }
         return cell
     }
+ 
 }
 
 //MARK:- UITableView Delegate
@@ -99,6 +100,12 @@ extension UsersViewController: UITableViewDelegate {
         }
         
        //Navigate to details view
+//        self.performSegue(withIdentifier: "showDetailSegue", sender: self)
+        //This can be done in prepare for segue if using segue.
+        if let controller = UserDetailsViewController.instantiate() {
+            controller.userDetailViewModel = UserDetailViewModel(self.usersViewModel.users[indexPath.row])
+            self.navigationController?.pushViewController(controller, animated: true)
+        }
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

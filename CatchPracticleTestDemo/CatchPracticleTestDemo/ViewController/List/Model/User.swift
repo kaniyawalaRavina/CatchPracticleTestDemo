@@ -8,9 +8,9 @@
 import Foundation
 
 // MARK: - UserModel
-struct UserModel: Codable {
+struct User: Codable {
     let id: Int?
     let title, subtitle, content: String?
 }
 
-typealias Users = [UserModel]
+typealias Users = [User]

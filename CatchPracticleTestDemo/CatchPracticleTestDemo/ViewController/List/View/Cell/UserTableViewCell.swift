@@ -15,7 +15,7 @@ class UserTableViewCell: UITableViewCell {
     @IBOutlet weak var indicatorView: UIActivityIndicatorView!
     
     //MARK:- Declard Variables
-    var user: UserModel? {
+    var user: User? {
         didSet {
             titleLabel.text = user?.title
             subtitleLabel.text = user?.subtitle

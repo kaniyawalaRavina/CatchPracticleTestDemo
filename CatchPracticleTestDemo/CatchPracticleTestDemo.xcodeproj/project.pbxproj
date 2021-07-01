@@ -24,6 +24,8 @@
 		70F810FE268D51A700EC441E /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70F810FC268D51A700EC441E /* UserTableViewCell.xib */; };
 		70F81101268D51E400EC441E /* Extension+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F81100268D51E400EC441E /* Extension+TableView.swift */; };
 		70F81103268D51F700EC441E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F81102268D51F700EC441E /* Constant.swift */; };
+		70F81105268D640800EC441E /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F81104268D640800EC441E /* UserDetailsViewController.swift */; };
+		70F81107268D640D00EC441E /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F81106268D640D00EC441E /* UserDetailViewModel.swift */; };
 		A47DF5FCF2E984EFA528AFE2 /* Pods_CatchPracticleTestDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F657011FBFE3BA2C0873FFF9 /* Pods_CatchPracticleTestDemoTests.framework */; };
 		DB487E9CF9D7D8328E47C1E6 /* Pods_CatchPracticleTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F947745B89D5B7594F9059DE /* Pods_CatchPracticleTestDemo.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +73,8 @@
 		70F810FC268D51A700EC441E /* UserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
 		70F81100268D51E400EC441E /* Extension+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+TableView.swift"; sourceTree = "<group>"; };
 		70F81102268D51F700EC441E /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		70F81104268D640800EC441E /* UserDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		70F81106268D640D00EC441E /* UserDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
 		8327F8D158628A08D3197AB9 /* Pods-CatchPracticleTestDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchPracticleTestDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CatchPracticleTestDemoTests/Pods-CatchPracticleTestDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C221D4FF000E7A4871574E9E /* Pods-CatchPracticleTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchPracticleTestDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CatchPracticleTestDemoTests/Pods-CatchPracticleTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E85094D295F9D36B0AC939BF /* Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests/Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -263,6 +267,7 @@
 		70F810ED268D485700EC441E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				70F81106268D640D00EC441E /* UserDetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 		70F810EF268D486300EC441E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				70F81104268D640800EC441E /* UserDetailsViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -549,8 +555,10 @@
 				70F810F7268D518700EC441E /* UsersViewController.swift in Sources */,
 				70F81078268D441100EC441E /* AppDelegate.swift in Sources */,
 				70F810FD268D51A700EC441E /* UserTableViewCell.swift in Sources */,
+				70F81107268D640D00EC441E /* UserDetailViewModel.swift in Sources */,
 				70F810F2268D4B0D00EC441E /* APIRouter.swift in Sources */,
 				70F81103268D51F700EC441E /* Constant.swift in Sources */,
+				70F81105268D640800EC441E /* UserDetailsViewController.swift in Sources */,
 				70F810F5268D4B2800EC441E /* User.swift in Sources */,
 				70F8107A268D441100EC441E /* SceneDelegate.swift in Sources */,
 			);
