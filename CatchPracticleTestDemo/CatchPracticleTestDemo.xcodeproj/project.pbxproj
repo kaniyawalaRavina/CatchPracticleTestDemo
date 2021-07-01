@@ -26,6 +26,8 @@
 		70F81103268D51F700EC441E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F81102268D51F700EC441E /* Constant.swift */; };
 		70F81105268D640800EC441E /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F81104268D640800EC441E /* UserDetailsViewController.swift */; };
 		70F81107268D640D00EC441E /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F81106268D640D00EC441E /* UserDetailViewModel.swift */; };
+		70F8110A268D68EB00EC441E /* UserDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F81108268D68EB00EC441E /* UserDetailsTests.swift */; };
+		70F8110B268D68EB00EC441E /* UsersListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F81109268D68EB00EC441E /* UsersListTests.swift */; };
 		A47DF5FCF2E984EFA528AFE2 /* Pods_CatchPracticleTestDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F657011FBFE3BA2C0873FFF9 /* Pods_CatchPracticleTestDemoTests.framework */; };
 		DB487E9CF9D7D8328E47C1E6 /* Pods_CatchPracticleTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F947745B89D5B7594F9059DE /* Pods_CatchPracticleTestDemo.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +77,8 @@
 		70F81102268D51F700EC441E /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		70F81104268D640800EC441E /* UserDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
 		70F81106268D640D00EC441E /* UserDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
+		70F81108268D68EB00EC441E /* UserDetailsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsTests.swift; sourceTree = "<group>"; };
+		70F81109268D68EB00EC441E /* UsersListTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersListTests.swift; sourceTree = "<group>"; };
 		8327F8D158628A08D3197AB9 /* Pods-CatchPracticleTestDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchPracticleTestDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CatchPracticleTestDemoTests/Pods-CatchPracticleTestDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C221D4FF000E7A4871574E9E /* Pods-CatchPracticleTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchPracticleTestDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CatchPracticleTestDemoTests/Pods-CatchPracticleTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		E85094D295F9D36B0AC939BF /* Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests/Pods-CatchPracticleTestDemo-CatchPracticleTestDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +164,8 @@
 		70F8108D268D441400EC441E /* CatchPracticleTestDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				70F81108268D68EB00EC441E /* UserDetailsTests.swift */,
+				70F81109268D68EB00EC441E /* UsersListTests.swift */,
 				70F8108E268D441400EC441E /* CatchPracticleTestDemoTests.swift */,
 				70F81090268D441400EC441E /* Info.plist */,
 			);
@@ -568,7 +574,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F8110B268D68EB00EC441E /* UsersListTests.swift in Sources */,
 				70F8108F268D441400EC441E /* CatchPracticleTestDemoTests.swift in Sources */,
+				70F8110A268D68EB00EC441E /* UserDetailsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
